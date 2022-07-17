@@ -1,0 +1,115 @@
+.hidden {
+  display: none;
+}
+button, input {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+
+main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+}
+
+/* clock */
+.clock {
+  margin: 20vh 0 30px;;
+  text-align: center;
+  font-size: 80px;
+  font-weight: normal;
+}
+
+/* login-form */
+.login-form {
+  margin: 0 auto;
+  text-align: center;
+}
+.login-form .intro,
+.todo-form .question {
+  font-size: 30px;
+}
+.login-form .nameInput,
+.todo-form input {
+  border: 0;
+  border-bottom: 2px solid #fff;
+  outline: 0;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+}
+.todo-form input::placeholder {
+  color: #fff;
+  font-size: 22px;
+}
+.login-form .loginBtn {
+  padding: 5px 15px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.logoutBtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+.greeting {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+/* to-do */
+.todo-form {
+  text-align: center;
+}
+.todo-form input {
+  width: 40%;
+  min-width: 400px;
+}
+.todo-list {
+  width: 40%;
+  min-width: 400px;
+  margin: 30px auto;
+}
+.todo-list li {
+  margin: 10px 0;
+  font-size: 24px;
+}
+.todo-list li button {
+  margin-left: 20px;
+}
+
+/* weather */
+.weatherArea {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+  font-size: 14px;
+}
+
+/* quote */
+.quoteArea {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+  font-size: 14px;
+}
+.quoteArea .quote {
+  margin: 10px 0;
+}
