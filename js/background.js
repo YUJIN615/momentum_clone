@@ -3,7 +3,7 @@ const randomBg = images[Math.floor(Math.random() * images.length)];
 // const bgImage = document.createElement('img');
 const main = document.querySelector('main');
 
-main.style.background = `url(../img/${randomBg}) no-repeat center / cover`
+main.style.background = `url(./img/${randomBg}) no-repeat center / cover`
 
 // bgImage.src = `../img/${randomBg}`;
 
